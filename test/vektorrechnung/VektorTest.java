@@ -45,17 +45,8 @@ public class VektorTest {
     /**
      * Test of minus method, of class Vektor.
      */
-    @Test
-    public void testMinus() {
-        System.out.println("minus");
-        Vektor that = new Vektor(1,2,3);
-        Vektor instance = new Vektor(2,3,5);
-        Vektor expResult = new Vektor(1.0,1.0,2.0);
-        Vektor result = instance.minus(that);
-        assertEquals(expResult.toString(),result.toString());
-        // TODO review the generated test code and remove the default call to fail.
-        
-    }
+    
+    
 
     /**
      * Test of skalar method, of class Vektor.
